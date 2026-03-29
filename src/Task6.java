@@ -4,7 +4,7 @@ public class Task6 {
     public static void run() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        sc.nextLine(); // очистка
+        sc.nextLine();
 
         reverse(n, sc);
     }
